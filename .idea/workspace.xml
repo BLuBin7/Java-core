@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex1/TestCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javacore/syntax/Java39/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javacore/syntax/Java39/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacore/syntax/Java37/Java37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/Java37/Java37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacore/syntax/Java38/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/Java38/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacore/syntax/Java38/Phim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/Java38/Phim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacore/syntax/Java39/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/Java39/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javacore/syntax/Java39/Nhanvien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/Java39/Nhanvien.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +51,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.javacore.syntax.Java39.Main">
+  <component name="RunManager" selected="Application.TestCircle">
     <configuration name="Java37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacore.syntax.Java37.Java37" />
+      <option name="MAIN_CLASS_NAME" value="syntax.Java37.Java37" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacore.syntax.Java37.*" />
+          <option name="PATTERN" value="syntax.Java37.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javacore.syntax.Java38.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacore.syntax.Java38.Main" />
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex1.TestCircle" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacore.syntax.Java38.*" />
+          <option name="PATTERN" value="com.exercise.exercise_1.Ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.javacore.syntax.Java39.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javacore.syntax.Java39.Main" />
+    <configuration name="syntax.Java38.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="syntax.Java38.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javacore.syntax.Java39.*" />
+          <option name="PATTERN" value="syntax.Java38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="syntax.Java39.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="syntax.Java39.Main" />
+      <module name="Java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="syntax.Java39.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.com.javacore.syntax.Java39.Main" />
         <item itemvalue="Application.com.javacore.syntax.Java38.Main" />
         <item itemvalue="Application.Java37" />
@@ -174,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675509533457</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675520506014</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675520506014</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675520518735</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675520518735</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

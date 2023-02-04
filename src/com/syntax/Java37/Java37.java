@@ -1,4 +1,4 @@
-package com.javacore.syntax.Java37;
+package com.syntax.Java37;
 
 public class Java37 {
 
