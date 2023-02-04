@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex2/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex2/textEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex3/MyPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex3/testEx3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,20 +46,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.textEx2">
-    <configuration name="Java37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="syntax.Java37.Java37" />
-      <module name="Java-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="syntax.Java37.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.testEx3">
     <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex1.TestCircle" />
       <module name="Java-core" />
@@ -100,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex3.testEx3" />
+      <module name="Java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.exercise_1.Ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="textEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex2.textEx2" />
       <module name="Java-core" />
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testEx3" />
         <item itemvalue="Application.textEx2" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.com.javacore.syntax.Java39.Main" />
         <item itemvalue="Application.com.javacore.syntax.Java38.Main" />
-        <item itemvalue="Application.Java37" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675529568716</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675530984667</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675530984667</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675530992928</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675530992928</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
