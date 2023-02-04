@@ -37,4 +37,11 @@ public class Nhanvien {
         this.tuoi = tuoi;
     }
 
+    @Override
+    public String toString() {
+        return  '{' + "ten= " + ten  +
+                ", diachi=" + diachi  +
+                ", tuoi=" + tuoi +
+                '}';
+    }
 }
