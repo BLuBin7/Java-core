@@ -1,5 +1,5 @@
 package com.syntax.jmaster.Java39;
-
+//Java Cơ Bản 38 Sự khác nhau giữa giá trị null và 0 trong Java
 import java.util.Scanner;
 
 public class Main {
