@@ -1,4 +1,4 @@
-package com.syntax.Java38;
+package com.syntax.jmaster.Java38;
 
 public class Phim {
     public String tenphim ;

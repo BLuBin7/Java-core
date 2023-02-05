@@ -1,4 +1,4 @@
-package com.syntax.Java39;
+package com.syntax.jmaster.Java39;
 
 import java.util.Scanner;
 
