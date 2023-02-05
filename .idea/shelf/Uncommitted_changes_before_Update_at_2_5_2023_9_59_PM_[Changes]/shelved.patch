@@ -1,0 +1,160 @@
+Index: src/com/syntax/jmaster/Java37/Java37.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.syntax.jmaster.Java37;\r\n\r\npublic class Java37 {\r\n\r\n    public void Chuvi()\r\n    {\r\n        System.out.println(\"chu vi\");\r\n    }\r\n\r\n\r\n//    truyền class trong class được\r\n    public static void Xinchao(Java37 jv37)\r\n\r\n    {\r\n        String s = \"xin chao\";\r\n        System.out.println(s);\r\n        jv37.Chuvi();\r\n    }\r\n    public static void main(String[] args) {\r\n        int x =10;\r\n        System.out.println(x);\r\n//      phải khai báo Java37 là do class Xinchao có dữ liệu truyền vào là Java37\r\n//      do biến jv37 là 1 đối tượng nên phải khởi tạo nó bằng hàm new\r\n        Java37 jv37 = new Java37();\r\n        Xinchao(jv37);\r\n//    Kết luận : String và Java37 là 1 đổi tượng, cso biến tham chiếu lần lươt là :\"s\" và \"jv37\"\r\n//              nên nó được lưu trong bộ nhớ stack\r\n//       Lưu ý : int là loại cơ bản. String là loại đối tượng\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmaster/Java37/Java37.java b/src/com/syntax/jmaster/Java37/Java37.java
+--- a/src/com/syntax/jmaster/Java37/Java37.java	(revision b4c390697fc049e02eee1d723cd6c940d8c7358b)
++++ b/src/com/syntax/jmaster/Java37/Java37.java	(date 1675608592509)
+@@ -1,5 +1,5 @@
+ package com.syntax.jmaster.Java37;
+-
++//Java Cơ Bản 37 Bộ nhớ Stack và Heap trong Java
+ public class Java37 {
+ 
+     public void Chuvi()
+@@ -23,7 +23,7 @@
+ //      do biến jv37 là 1 đối tượng nên phải khởi tạo nó bằng hàm new
+         Java37 jv37 = new Java37();
+         Xinchao(jv37);
+-//    Kết luận : String và Java37 là 1 đổi tượng, cso biến tham chiếu lần lươt là :"s" và "jv37"
++//    Kết luận : String và Java37 là 1 đổi tượng, có biến tham chiếu lần lươt là :"s" và "jv37"
+ //              nên nó được lưu trong bộ nhớ stack
+ //       Lưu ý : int là loại cơ bản. String là loại đối tượng
+     }
+Index: src/com/syntax/jmaster/Java39/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.syntax.jmaster.Java39;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Main {\r\n\r\n    public static void main(String[] args) {\r\n        Scanner input = new Scanner(System.in);\r\n//       khai báo mảng kiểu thường\r\n//        int[] mang = new int[5];\r\n\r\n        System.out.println(\"nhap so luong nhan vien \");\r\n        int sonhanvien = input.nextInt();\r\n\r\n//       do hàm nextInt sẽ có kí tự xuống dòng nên phải xóa kí tự xuống dòng bằng cách xóa cache\r\n//       xóa bộ nhớ đệm\r\n        input.nextLine();\r\n//        khai báo mảng kiểu dữ liệu obj\r\n        Nhanvien[] nhanvien = new Nhanvien[sonhanvien];\r\n//      nếu i = 1 thì đang thiếu phần tử đầu tiên (thứ 0) trong mảng\r\n//      và cố gắng lấy phần tử thứ 10 (không có mặt) và nó ném Array Index Out Of Bounds Exception.\r\n        for(int i = 0 ; i < nhanvien.length ; i++)\r\n        {\r\n\r\n            System.out.println(\"nhap ten nhan vien thu \" + (int)(i+1) +\" : \");\r\n            String tennhanvien = input.nextLine();\r\n\r\n            System.out.println(\"nhap dia chi nhan vien thu \" + (int)(i+1) +\" : \");\r\n            String diachi = input.nextLine();\r\n\r\n            System.out.println(\"nhap tuoi nhan vien thu \" + (int)(i+1) +\" : \");\r\n            int tuoi = input.nextInt();\r\n\r\n//           gán biến để tạo constructor thứ 2 để lưu lại giá trị\r\n//            ở đây \"ten\" và \"diachi\" không để trong dấu  ngoặc là do nó có kiểu STRING sẵn rồi\r\n            nhanvien[i] = new Nhanvien( tennhanvien , diachi, tuoi);\r\n\r\n//            xóa bộ nhớ đệm\r\n            input.nextLine();\r\n\r\n        }\r\n\r\n//        foreach( < kiểu dữ liệu > tên biến : tên mảng) : biến sẽ tự chạy hết mảng không cần biết chiều dài mảng\r\n        for (Nhanvien nv : nhanvien)\r\n        {\r\n//          nv có kiểu là Nhanvien (constructor có kiểu sẵn rồi ) rồi nên không cần phải trỏ toString nữa\r\n            System.out.println(\"nhan vien thu \" +  nv);\r\n\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmaster/Java39/Main.java b/src/com/syntax/jmaster/Java39/Main.java
+--- a/src/com/syntax/jmaster/Java39/Main.java	(revision b4c390697fc049e02eee1d723cd6c940d8c7358b)
++++ b/src/com/syntax/jmaster/Java39/Main.java	(date 1675608651329)
+@@ -1,5 +1,5 @@
+ package com.syntax.jmaster.Java39;
+-
++//Java Cơ Bản 38 Sự khác nhau giữa giá trị null và 0 trong Java
+ import java.util.Scanner;
+ 
+ public class Main {
+Index: src/com/syntax/jmaster/Java38/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.syntax.jmaster.Java38;\r\n\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        Phim tenphim = null; // null là kiểu dữ liệu trống ( không phải bằng 0)\r\n        tenphim = new Phim(\"hh\");\r\n        System.out.println(tenphim.getTenphim());\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmaster/Java38/Main.java b/src/com/syntax/jmaster/Java38/Main.java
+--- a/src/com/syntax/jmaster/Java38/Main.java	(revision b4c390697fc049e02eee1d723cd6c940d8c7358b)
++++ b/src/com/syntax/jmaster/Java38/Main.java	(date 1675608625958)
+@@ -1,5 +1,5 @@
+ package com.syntax.jmaster.Java38;
+-
++//Java Cơ Bản 38 Sự khác nhau giữa giá trị null và 0 trong Java
+ public class Main {
+     public static void main(String[] args) {
+         Phim tenphim = null; // null là kiểu dữ liệu trống ( không phải bằng 0)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6593b59e-5fa1-4073-9258-81e896d501a9\" name=\"Changes\" comment=\"Merge remote-tracking branch 'origin/master'\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/syntax/Java37/Java37.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/syntax/jmaster/Java37/Java37.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/syntax/Java38/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/syntax/jmaster/Java38/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/syntax/Java38/Phim.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/syntax/jmaster/Java38/Phim.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/syntax/Java39/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/syntax/jmaster/Java39/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/syntax/Java39/Nhanvien.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/syntax/jmaster/Java39/Nhanvien.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LDsjTVL1QeOzrgnFexXmuqsRN5\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.testEx3\">\r\n    <configuration name=\"TestCircle\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.exercise.exercise_1.Ex1.TestCircle\" />\r\n      <module name=\"Java-core\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.exercise.exercise_1.Ex1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"syntax.Java38.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"syntax.Java38.Main\" />\r\n      <module name=\"Java-core\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"syntax.Java38.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"syntax.Java39.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"syntax.Java39.Main\" />\r\n      <module name=\"Java-core\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"syntax.Java39.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"testEx3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.exercise.exercise_1.Ex3.testEx3\" />\r\n      <module name=\"Java-core\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.exercise.exercise_1.Ex3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"textEx2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.exercise.exercise_1.Ex2.textEx2\" />\r\n      <module name=\"Java-core\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.exercise.exercise_1.Ex2.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.testEx3\" />\r\n        <item itemvalue=\"Application.textEx2\" />\r\n        <item itemvalue=\"Application.TestCircle\" />\r\n        <item itemvalue=\"Application.com.javacore.syntax.Java39.Main\" />\r\n        <item itemvalue=\"Application.com.javacore.syntax.Java38.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6593b59e-5fa1-4073-9258-81e896d501a9\" name=\"Changes\" comment=\"\" />\r\n      <created>1675417124954</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1675417124954</updated>\r\n      <workItem from=\"1675417126355\" duration=\"1000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial commit\">\r\n      <created>1675417535035</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675417535035</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit\">\r\n      <created>1675417542155</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675417542155</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Initial commit\">\r\n      <created>1675418735450</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675418735450</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Initial commit\">\r\n      <created>1675418743823</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675418743823</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Initial commit\">\r\n      <created>1675418759015</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675418759015</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675507237984</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675507237984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675507254368</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675507254368</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675509525181</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675509525181</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675509533457</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675509533457</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675520506014</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675520506014</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675520518735</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675520518735</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675527827272</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675527827272</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675527836420</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675527836420</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675529562948</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675529562948</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675529568716</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675529568716</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675530984667</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675530984667</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675530992928</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675530992928</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675532230894</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675532230895</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675570094955</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675570094955</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <created>1675591414786</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1675591414786</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"21\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <MESSAGE value=\"#Java 39\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge remote-tracking branch 'origin/master'\" />\r\n  </component>\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b4c390697fc049e02eee1d723cd6c940d8c7358b)
++++ b/.idea/workspace.xml	(date 1675608803322)
+@@ -5,12 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
++      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java40/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/syntax/Java37/Java37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java37/Java37.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/syntax/Java38/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java38/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/syntax/Java38/Phim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java38/Phim.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/syntax/Java39/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java39/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/com/syntax/Java39/Nhanvien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java39/Nhanvien.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java37/Java37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java37/Java37.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java38/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java38/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java39/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java39/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -36,19 +35,19 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Downloaded.Files.Path.Enabled": "false",
+-    "Repository.Attach.Annotations": "false",
+-    "Repository.Attach.JavaDocs": "false",
+-    "Repository.Attach.Sources": "false",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager" selected="Application.testEx3">
+     <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex1.TestCircle" />
+@@ -275,7 +274,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1675591414786</updated>
+     </task>
+-    <option name="localTasksCounter" value="21" />
++    <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'">
++      <created>1675608215575</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1675608215575</updated>
++    </task>
++    <option name="localTasksCounter" value="22" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+@@ -284,4 +290,4 @@
+     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+   </component>
+-</project>
++</project>
+\ No newline at end of file
+Index: src/com/syntax/jmaster/Java40/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmaster/Java40/Main.java b/src/com/syntax/jmaster/Java40/Main.java
+new file mode 100644
+--- /dev/null	(date 1675609165787)
++++ b/src/com/syntax/jmaster/Java40/Main.java	(date 1675609165787)
+@@ -0,0 +1,8 @@
++package com.syntax.jmaster.Java40;
++//Java Cơ Bản 40 Kế thừa trong Java
++// Class kế thừa : subclass(class con), class được kế thừa : superclass(class cha)
++// superclass có thể có nhiều subclass nhưng subclass chỉ có duy nhất 1 superclass
++//lưu ý: trong INTERFACE thì 1 subclass có thể kế thừa nhiều superclass
++public class Main {
++    
++}
