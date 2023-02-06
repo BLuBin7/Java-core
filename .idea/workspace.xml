@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java43/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java43/Superclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Diachi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +44,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.syntax.jmaster.Java42.Main">
+  <component name="RunManager" selected="Application.com.syntax.jmaster.Java44.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java40.Main" />
       <module name="Java-core" />
@@ -61,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex1.TestCircle" />
+    <configuration name="com.syntax.jmaster.Java42.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java42.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.exercise_1.Ex1.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syntax.jmaster.Java42.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java42.Main" />
+    <configuration name="com.syntax.jmaster.Java44.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java44.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.jmaster.Java42.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java44.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.syntax.jmaster.Java44.Main" />
         <item itemvalue="Application.com.syntax.jmaster.Java42.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.testEx3" />
         <item itemvalue="Application.textEx2" />
-        <item itemvalue="Application.TestCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675417124954</updated>
       <workItem from="1675417126355" duration="1000" />
+      <workItem from="1675824878455" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675417535035</created>
@@ -301,8 +306,25 @@
       <option name="project" value="LOCAL" />
       <updated>1675611123658</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675611961071</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675611961071</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675701447307</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701447308</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
