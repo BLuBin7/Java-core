@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Diachi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java44/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675417124954</updated>
       <workItem from="1675417126355" duration="1000" />
-      <workItem from="1675824878455" duration="1486000" />
+      <workItem from="1675824878455" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675417535035</created>
@@ -320,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675701447308</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675826423484</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1675826423484</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675826538431</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1675826538431</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
