@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java45/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LAB211/J1SP0001/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java50/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tesst/SimpleCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java50/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java50/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +20,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,6 +47,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Intellij-Utimately/project/Slang_word",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -47,13 +58,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.syntax.jmaster.Java44.Main">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tesst" />
+      <recent name="com.syntax.jmaster.Java50" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleCalculatorTest.twoPlusShouldEqualFour">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java40.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java50.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.jmaster.Java40.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java50.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syntax.jmaster.Java42.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java42.Main" />
+    <configuration name="com.syntax.jmaster.Java45.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java45.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.jmaster.Java42.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java45.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syntax.jmaster.Java44.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java44.Main" />
+    <configuration name="com.syntax.jmaster.Java46.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java46.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.jmaster.Java44.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java46.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex3.testEx3" />
+    <configuration name="com.syntax.jmaster.Java47.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java47.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.exercise_1.Ex3.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java47.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.exercise_1.Ex2.textEx2" />
+    <configuration name="SimpleCalculatorTest.twoPlusShouldEqualFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.exercise_1.Ex2.*" />
+          <option name="PATTERN" value="tesst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tesst" />
+      <option name="MAIN_CLASS_NAME" value="tesst.SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="twoPlusShouldEqualFour" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.syntax.jmaster.Java44.Main" />
-        <item itemvalue="Application.com.syntax.jmaster.Java42.Main" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.twoPlusShouldEqualFour" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.testEx3" />
-        <item itemvalue="Application.textEx2" />
+        <item itemvalue="Application.com.syntax.jmaster.Java47.Main" />
+        <item itemvalue="Application.com.syntax.jmaster.Java46.Main" />
+        <item itemvalue="Application.com.syntax.jmaster.Java45.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675417124954</updated>
       <workItem from="1675417126355" duration="1000" />
-      <workItem from="1675824878455" duration="2483000" />
+      <workItem from="1675824878455" duration="14589000" />
+      <workItem from="1675870973419" duration="6201000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1675417535035</created>
@@ -337,7 +361,126 @@
       <option name="project" value="LOCAL" />
       <updated>1675827045696</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827470049</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827470049</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827491305</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827491305</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827507352</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827507352</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827524184</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827524184</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827538450</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827538450</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827570741</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827570741</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827736626</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827736626</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827777176</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827777176</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827815539</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827815539</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827840529</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827840529</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675827851762</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1675827851762</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675864847305</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1675864847305</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675864851232</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1675864851232</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675865138566</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1675865138566</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675866482628</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675866482628</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675866493664</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675866493664</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1675868937299</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675868937299</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

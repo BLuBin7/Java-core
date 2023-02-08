@@ -1,18 +1,20 @@
 package com.syntax.jmaster.Java45;
 
-public class Employee extends Person{
+public class Employee extends Person {
     private double salary;
-//    Constructor 1
+
+
+    //    Constructor 1
 //    super() là gọi constructor mặc đinh của class cha
 //    ở đây nó mặc định là super (do class con kế thừa class cha)
 //    Nên việc super ở constructor rỗng CÓ HAY KHÔNG CŨNG ĐƯỢC
-    public Employee() {
-        super();
-    }
-//  Constructor 2
-    public Employee(String name) {
-        super(name);
-    }
+//    public Employee() {
+//        super();
+//    }
+////  Constructor 2
+//    public Employee(String name) {
+//        super(name);
+//    }
 //  Constructor 3
     public Employee(String name ,double salary) {
         super(name);
@@ -26,5 +28,6 @@ public class Employee extends Person{
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
 }
 
