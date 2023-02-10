@@ -22,7 +22,7 @@ public class Main {
         e.Thongtin();
 
 //     KẾT LUẬN:
-//     - Trong thời gian compliletime : nó chỉ gọi dược hàm trong class cha
+//     - Trong thời gian compliletime : nó chỉ gọi dược hàm trong class con
 //     - Trong thời gian runtime : nó sẽ chạy hàm trên đối tượng thật thụ của nó ( nên mới có vụ in ra "class con" như ở trên)
 //        Ví dụ :
 //        Person p = new Employee() : đối tượng thật thụ là Enployee()
