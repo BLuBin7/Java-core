@@ -1,6 +1,6 @@
 package tesst;
 
-import com.syntax.jmaster.Java50.SimpleCalculator;
+import com.syntax.jmasterCoBan.Java50.SimpleCalculator;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
