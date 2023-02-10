@@ -4,6 +4,7 @@ package com.syntax.jmaster.Java54;
 //interface chỉ bao gồm các hàm abstract và hằng số( không có Attribute , Constructor, hàm bình thường)
 // trong interface mặc định mọi hàm là public và abstract
 //có thể dùng tính đa hình
+//interface dùng để đa kế thừa
 public class Main {
     public static void main(String[] args) {
         Dog dg = new Dog();
