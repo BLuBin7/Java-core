@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java55/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java55/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java55/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java55/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java56/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java56/Dinhdangtiente/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java57/Ngayvagio/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java56/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java56/DinhdangSo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java57/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +67,13 @@
       <recent name="com.syntax.jmaster.Java50" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.syntax.jmaster.Java56.Main">
+  <component name="RunManager" selected="Application.com.syntax.jmaster.Java57.Ngayvagio.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java50.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java56.Dinhdangtiente.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.jmaster.Java50.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java56.Dinhdangtiente.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syntax.jmaster.Java56.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java56.Main" />
+    <configuration name="com.syntax.jmaster.Java56.DinhdangSo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java56.DinhdangSo.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syntax.jmaster.Java56.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java56.DinhdangSo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,29 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculatorTest.twoPlusShouldEqualFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.syntax.jmaster.Java57.Ngayvagio.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmaster.Java57.Ngayvagio.Main" />
       <module name="Java-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tesst.*" />
+          <option name="PATTERN" value="com.syntax.jmaster.Java57.Ngayvagio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tesst" />
-      <option name="MAIN_CLASS_NAME" value="tesst.SimpleCalculatorTest" />
-      <option name="METHOD_NAME" value="twoPlusShouldEqualFour" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.syntax.jmaster.Java56.Main" />
+        <item itemvalue="Application.com.syntax.jmaster.Java57.Ngayvagio.Main" />
+        <item itemvalue="Application.com.syntax.jmaster.Java57.Main" />
+        <item itemvalue="Application.com.syntax.jmaster.Java56.DinhdangSo.Main" />
         <item itemvalue="Application.com.syntax.jmaster.Java50.ex.main.Main" />
         <item itemvalue="Application.com.LAB211.J1SP0001.Main" />
-        <item itemvalue="JUnit.SimpleCalculatorTest.twoPlusShouldEqualFour" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +153,7 @@
       <updated>1675417124954</updated>
       <workItem from="1675417126355" duration="1000" />
       <workItem from="1675824878455" duration="14589000" />
-      <workItem from="1675870973419" duration="17646000" />
-    </task>
-    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1675532230894</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1675532230895</updated>
+      <workItem from="1675870973419" duration="19150000" />
     </task>
     <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/master'">
       <created>1675570094955</created>
@@ -502,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676023392330</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1676025362778</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1676025362778</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,4 @@
-package com.syntax.jmaster.Java56;
+package com.syntax.jmaster.Java56.DinhdangSo;
 
 import java.math.RoundingMode;
 import java.text.NumberFormat;
