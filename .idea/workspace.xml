@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmaster/Java57/Dinhdangngay/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmaster/Java57/Dinhdangngay/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,14 +147,7 @@
       <updated>1675417124954</updated>
       <workItem from="1675417126355" duration="1000" />
       <workItem from="1675824878455" duration="14589000" />
-      <workItem from="1675870973419" duration="19448000" />
-    </task>
-    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1675591414786</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1675591414786</updated>
+      <workItem from="1675870973419" duration="19773000" />
     </task>
     <task id="LOCAL-00021" summary="Merge remote-tracking branch 'origin/master'">
       <created>1675608215575</created>
@@ -495,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676026864640</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1676027426242</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1676027426242</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
