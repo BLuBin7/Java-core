@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/com/LAB211/J1SP0002/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex4/MyPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex4/textEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex5/MyTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex5/textEx5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java62/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java62/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java63/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java63/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java64/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java65/Main.java" afterDir="false" />
+    <list default="true" id="6593b59e-5fa1-4073-9258-81e896d501a9" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java66/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex4/MyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exercise/exercise_1/Ex4/MyCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java61/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java61/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java65/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/syntax/jmasterCoBan/Java65/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +69,7 @@
       <recent name="com.exercise.exercise_1.Ex4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.syntax.jmasterCoBan.Java65.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syntax.jmasterCoBan.Java62.Main" />
-      <module name="Java-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syntax.jmasterCoBan.Java62.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.syntax.jmasterCoBan.Java66.Main">
     <configuration name="com.syntax.jmasterCoBan.Java64.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.syntax.jmasterCoBan.Java64.Main" />
       <module name="Java-core" />
@@ -113,6 +89,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.syntax.jmasterCoBan.Java65.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.syntax.jmasterCoBan.Java66.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syntax.jmasterCoBan.Java66.Main" />
+      <module name="Java-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syntax.jmasterCoBan.Java66.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.syntax.jmasterCoBan.Java66.Main" />
         <item itemvalue="Application.com.syntax.jmasterCoBan.Java65.Main" />
         <item itemvalue="Application.com.syntax.jmasterCoBan.Java64.Main" />
         <item itemvalue="Application.textEx5" />
         <item itemvalue="Application.textEx4" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,28 +155,7 @@
       <updated>1675417124954</updated>
       <workItem from="1675417126355" duration="1000" />
       <workItem from="1675824878455" duration="14589000" />
-      <workItem from="1675870973419" duration="31499000" />
-    </task>
-    <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1675827524184</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1675827524184</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1675827538450</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1675827538450</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1675827570741</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1675827570741</updated>
+      <workItem from="1675870973419" duration="32241000" />
     </task>
     <task id="LOCAL-00036" summary="Merge remote-tracking branch 'origin/master'">
       <created>1675827736626</created>
@@ -511,7 +479,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676038601087</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Initial commit">
+      <created>1676086268184</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1676086268184</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1676086292449</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1676086292449</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1676086310452</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1676086310452</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,9 +508,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#Java 39" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="sấ" />
-    <option name="LAST_COMMIT_MESSAGE" value="sấ" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>
