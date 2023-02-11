@@ -1,8 +1,17 @@
 package com.exercise.exercise_1.Ex2;
 
+/**
+ * The type Text ex 2.
+ */
 public class textEx2 {
 //  Instance
     private static char b;
+
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 //      Cách 1
         Author author = new Author("A","abc@gmail.com",b);

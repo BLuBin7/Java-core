@@ -1,7 +1,15 @@
 package com.exercise.exercise_1.Ex5;
 
 
+/**
+ * The type Text ex 5.
+ */
 public class textEx5 {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         MyPoints v1 = new MyPoints(3,1);
         MyPoints v2 = new MyPoints(4,1);

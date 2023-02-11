@@ -1,6 +1,14 @@
 package com.exercise.exercise_1.Ex3;
 
+/**
+ * The type Test ex 3.
+ */
 public class testEx3 {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         MyPoints mp1 = new MyPoints(3,1);
         MyPoints mp2 = new MyPoints(5,7);

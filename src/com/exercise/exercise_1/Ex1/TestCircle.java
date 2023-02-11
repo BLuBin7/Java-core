@@ -2,7 +2,15 @@ package com.exercise.exercise_1.Ex1;
 
 import java.util.Scanner;
 
+/**
+ * The type Test circle.
+ */
 public class TestCircle {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Circle circle1 = new Circle(1.2,"red");

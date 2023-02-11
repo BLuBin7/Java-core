@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
+/**
+ * The type Main.
+ */
 /*
     LAB211 Assignment Type:	Short Assignment
 	Code: J1.S.P0001
@@ -11,8 +14,16 @@ import java.util.Scanner;
 	Slot(s): 1
 */
 public class Main {
+    /**
+     * The Sc.
+     */
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         System.out.println("nhap so luong muon sap xep : ");
         int n = sc.nextInt();
@@ -31,6 +42,11 @@ public class Main {
 
     }
 
+    /**
+     * Bubble sort.
+     *
+     * @param arr the arr
+     */
     public static void BubbleSort(int[] arr)
     {
         int i, j,u;

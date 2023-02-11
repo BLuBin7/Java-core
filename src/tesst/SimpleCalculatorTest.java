@@ -7,16 +7,28 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Simple calculator test.
+ */
 class SimpleCalculatorTest {
 
+    /**
+     * Sets up.
+     */
     @BeforeEach
     void setUp() {
     }
 
+    /**
+     * Tear down.
+     */
     @AfterEach
     void tearDown() {
     }
 
+    /**
+     * Two plus should equal four.
+     */
     @Test
     void twoPlusShouldEqualFour()
     {
