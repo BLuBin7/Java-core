@@ -1,6 +1,14 @@
 package com.exercise.exercise_1.Ex4;
 
+/**
+ * The type Text ex 4.
+ */
 public class textEx4 {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         MyPoints p1 = new MyPoints(4,9);
 

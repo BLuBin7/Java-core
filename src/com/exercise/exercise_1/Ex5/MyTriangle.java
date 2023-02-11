@@ -14,12 +14,28 @@ public class MyTriangle extends MyPoints {
     int x3 = 0;
     int y3 = 0;
 
+    /**
+     *
+     * @param v1
+     * @param v2
+     * @param v3
+     */
+
     public MyTriangle( MyPoints v1, MyPoints v2, MyPoints v3) {
         this.v1 = v1;
         this.v2 = v2;
         this.v3 = v3;
     }
 
+    /**
+     *
+     * @param x1
+     * @param y1
+     * @param x2
+     * @param y2
+     * @param x3
+     * @param y3
+     */
     public MyTriangle(int x1, int y1, int x2, int y2, int x3, int y3) {
         super(x1, y1);
         this.x2 = x2;

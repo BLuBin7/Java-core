@@ -28,6 +28,7 @@ public class Main {
         xinchao.xinchao();
     }
 }
+
 abstract class Xinchao {
     public abstract void xinchao();
 }

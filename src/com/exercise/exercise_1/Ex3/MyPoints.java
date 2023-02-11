@@ -40,6 +40,13 @@ public class MyPoints {
                 ", y=" + y +
                 '}';
     }
+
+    /**
+     *
+     * @param x
+     * @param y
+     * @return
+     */
     public double distance(int x, int y)
     {
         int xDiff = this.x;
@@ -53,3 +60,4 @@ public class MyPoints {
             return Math.sqrt(xDiff * xDiff + yDiff * yDiff );
         }
 }
+

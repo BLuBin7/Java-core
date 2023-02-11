@@ -1,9 +1,15 @@
 package com.syntax.jmasterCoBan.Java64;
+
 /**
  * Java Cơ Bản 64 Exception Ngoại lệ trong Java.
  * Exception có 2 loại là : checked và unchecked
  */
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] mang = {1,4};
         System.out.println(mang[3]);
