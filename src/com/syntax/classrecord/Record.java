@@ -6,7 +6,6 @@ package com.syntax.classrecord;
  * Description :
  */
 
-// class record có thể inplements nhưng không thể extends được
-// các hàm đều ở dạng final ( tức là không thể thay đổi được)
-public record Record() {
+
+public record Record(String name, int tuoi) {
 }
