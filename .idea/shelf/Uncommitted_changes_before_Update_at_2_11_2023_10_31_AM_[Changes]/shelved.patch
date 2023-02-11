@@ -1,0 +1,374 @@
+Index: src/com/exercise/exercise_1/Ex4/MyCircle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.exercise.exercise_1.Ex4;\r\n\r\nimport com.exercise.exercise_1.Ex3.MyPoints;\r\n\r\npublic class MyCircle {\r\n    //    Attribute\r\n    private MyPoints center;\r\n    private int radius = 1;\r\n\r\n//    Constructor\r\n    public MyCircle(int x , int y , int radius) {\r\n        super();\r\n        this.radius = radius;\r\n    }\r\n    public MyCircle(MyPoints center, int radius) {\r\n        this.center = center;\r\n        this.radius = radius;\r\n    }\r\n\r\n    public MyPoints getCenter() {\r\n        return center;\r\n    }\r\n\r\n    public void setCenter(MyPoints center) {\r\n        this.center = center;\r\n    }\r\n\r\n    public int getRadius() {\r\n        return radius;\r\n    }\r\n\r\n    public void setRadius(int radius) {\r\n        this.radius = radius;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"MyCircle{\" +\r\n                \"center=\" + center +\r\n                \", radius=\" + radius +\r\n                '}';\r\n    }\r\n    public double getArea()\r\n    {\r\n        return Math.PI*radius*radius;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/exercise/exercise_1/Ex4/MyCircle.java b/src/com/exercise/exercise_1/Ex4/MyCircle.java
+--- a/src/com/exercise/exercise_1/Ex4/MyCircle.java	(revision 48c94eaee35e938b13130aef5479f2df0bcca0b2)
++++ b/src/com/exercise/exercise_1/Ex4/MyCircle.java	(date 1676041206168)
+@@ -1,6 +1,5 @@
+ package com.exercise.exercise_1.Ex4;
+ 
+-import com.exercise.exercise_1.Ex3.MyPoints;
+ 
+ public class MyCircle {
+     //    Attribute
+@@ -17,6 +16,8 @@
+         this.radius = radius;
+     }
+ 
++
++
+     public MyPoints getCenter() {
+         return center;
+     }
+@@ -40,6 +41,18 @@
+                 ", radius=" + radius +
+                 '}';
+     }
++    public int getCenterX()
++    {
++        return this.center.getX();
++    }
++    public int getCenterY()
++    {
++        return this.center.getY();
++    }
++    public void setCenterXY(int x,int y ) {
++        this.center.setX(x);
++        this.center.setY(y);
++    }
+     public double getArea()
+     {
+         return Math.PI*radius*radius;
+Index: src/com/exercise/exercise_1/Ex5/textEx5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/exercise/exercise_1/Ex5/textEx5.java b/src/com/exercise/exercise_1/Ex5/textEx5.java
+new file mode 100644
+--- /dev/null	(date 1676046565169)
++++ b/src/com/exercise/exercise_1/Ex5/textEx5.java	(date 1676046565169)
+@@ -0,0 +1,15 @@
++package com.exercise.exercise_1.Ex5;
++
++
++public class textEx5 {
++    public static void main(String[] args) {
++        MyPoints v1 = new MyPoints(3,1);
++        MyPoints v2 = new MyPoints(4,1);
++        MyPoints v3 = new MyPoints(9,1);
++        MyTriangle mt = new MyTriangle(v1,v2,v3);
++        MyTriangle mt2 = new MyTriangle(1,2,3,4,5,6);
++
++        System.out.println(mt.getPerimeter());
++
++    }
++}
+Index: src/com/LAB211/J1SP0002/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/LAB211/J1SP0002/Main.java b/src/com/LAB211/J1SP0002/Main.java
+new file mode 100644
+--- /dev/null	(date 1676039935452)
++++ b/src/com/LAB211/J1SP0002/Main.java	(date 1676039935452)
+@@ -0,0 +1,4 @@
++package com.LAB211.J1SP0002;
++
++public class Main {
++}
+Index: src/com/syntax/jmasterCoBan/Java63/PersonService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmasterCoBan/Java63/PersonService.java b/src/com/syntax/jmasterCoBan/Java63/PersonService.java
+new file mode 100644
+--- /dev/null	(date 1676039650790)
++++ b/src/com/syntax/jmasterCoBan/Java63/PersonService.java	(date 1676039650790)
+@@ -0,0 +1,5 @@
++package com.syntax.jmasterCoBan.Java63;
++
++public interface PersonService {
++    void hello();
++}
+Index: src/com/syntax/jmasterCoBan/Java61/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.syntax.jmasterCoBan.Java61;\r\n\r\npublic class Main {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmasterCoBan/Java61/Main.java b/src/com/syntax/jmasterCoBan/Java61/Main.java
+--- a/src/com/syntax/jmasterCoBan/Java61/Main.java	(revision 48c94eaee35e938b13130aef5479f2df0bcca0b2)
++++ b/src/com/syntax/jmasterCoBan/Java61/Main.java	(date 1676038780516)
+@@ -1,4 +1,5 @@
+ package com.syntax.jmasterCoBan.Java61;
+-
++//Java Cơ Bản 61 Non Static Inner Class
+ public class Main {
++//    inner class KHÔNG kế thừa được
+ }
+Index: src/com/syntax/jmasterCoBan/Java63/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmasterCoBan/Java63/Main.java b/src/com/syntax/jmasterCoBan/Java63/Main.java
+new file mode 100644
+--- /dev/null	(date 1676085476035)
++++ b/src/com/syntax/jmasterCoBan/Java63/Main.java	(date 1676085476035)
+@@ -0,0 +1,33 @@
++package com.syntax.jmasterCoBan.Java63;
++/**
++ * Java Cơ Bản 63 Anonymous Inner Class
++ */
++public class Main {
++    public static void main(String[] args) {
++
++//        tạo 1 class implements class interface mà không cần phải tạo 1 file mới
++        PersonService p = new PersonService()
++        {
++            @Override
++            public void hello() {
++                System.out.println("hello");
++            }
++        };
++        p.hello();
++//        lưu ý: phải có dấu " ; "
++
++//        tạo 1 class extends từ class abstract mà không cần tạo 1 file mới
++        Xinchao xinchao = new Xinchao()
++        {
++            @Override
++            public void xinchao() {
++                System.out.println("xinchao");
++            }
++        };
++//        lưu ý : phải có dấu " ; "
++        xinchao.xinchao();
++    }
++}
++abstract class Xinchao {
++    public abstract void xinchao();
++}
+Index: src/com/exercise/exercise_1/Ex4/textEx4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/exercise/exercise_1/Ex4/textEx4.java b/src/com/exercise/exercise_1/Ex4/textEx4.java
+new file mode 100644
+--- /dev/null	(date 1676041229232)
++++ b/src/com/exercise/exercise_1/Ex4/textEx4.java	(date 1676041229232)
+@@ -0,0 +1,17 @@
++package com.exercise.exercise_1.Ex4;
++
++public class textEx4 {
++    public static void main(String[] args) {
++        MyPoints p1 = new MyPoints(4,9);
++
++        MyCircle c1 = new MyCircle(p1,8);
++
++
++        System.out.println(c1.toString());
++        System.out.println(c1.getCenterX());
++
++        c1.setCenterXY(6,7);
++        System.out.println(c1.toString());
++
++    }
++}
+Index: src/com/syntax/jmasterCoBan/Java64/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmasterCoBan/Java64/Main.java b/src/com/syntax/jmasterCoBan/Java64/Main.java
+new file mode 100644
+--- /dev/null	(date 1676085975920)
++++ b/src/com/syntax/jmasterCoBan/Java64/Main.java	(date 1676085975920)
+@@ -0,0 +1,12 @@
++package com.syntax.jmasterCoBan.Java64;
++/**
++ * Java Cơ Bản 64 Exception Ngoại lệ trong Java.
++ * Exception có 2 loại là : checked và unchecked
++ */
++public class Main {
++    public static void main(String[] args) {
++        int[] mang = {1,4};
++        System.out.println(mang[3]);
++        // ở đây bị error nên nó sẽ throws ra cái exception
++    }
++}
+Index: src/com/exercise/exercise_1/Ex4/MyPoints.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/exercise/exercise_1/Ex4/MyPoints.java b/src/com/exercise/exercise_1/Ex4/MyPoints.java
+new file mode 100644
+--- /dev/null	(date 1676040362412)
++++ b/src/com/exercise/exercise_1/Ex4/MyPoints.java	(date 1676040362412)
+@@ -0,0 +1,55 @@
++package com.exercise.exercise_1.Ex4;
++
++public class MyPoints {
++//    Attibute
++    private int x = 0;
++    private int y = 0;
++//    Constructor
++
++    public MyPoints(int x, int y) {
++        this.x = x;
++        this.y = y;
++    }
++//   Operation
++
++    public int getX() {
++        return x;
++    }
++
++    public void setX(int x) {
++        this.x = x;
++    }
++
++    public int getY() {
++        return y;
++    }
++
++    public void setY(int y) {
++        this.y = y;
++    }
++    public void setxy(int x, int y)
++    {
++        this.x = x;
++        this.y = y;
++    }
++
++    @Override
++    public String toString() {
++        return "MyPoints{" +
++                "x=" + x +
++                ", y=" + y +
++                '}';
++    }
++    public double distance(int x, int y)
++    {
++        int xDiff = this.x;
++        int yDiff = this.y;
++        return Math.sqrt(xDiff * xDiff + yDiff * yDiff );
++    }
++    public double distanceother(MyPoints another)
++        {
++            int xDiff = this.x - another.x;
++            int yDiff = this.y - another.y;
++            return Math.sqrt(xDiff * xDiff + yDiff * yDiff );
++        }
++}
+Index: src/com/exercise/exercise_1/Ex5/MyTriangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/exercise/exercise_1/Ex5/MyTriangle.java b/src/com/exercise/exercise_1/Ex5/MyTriangle.java
+new file mode 100644
+--- /dev/null	(date 1676043494556)
++++ b/src/com/exercise/exercise_1/Ex5/MyTriangle.java	(date 1676043494556)
+@@ -0,0 +1,46 @@
++package com.exercise.exercise_1.Ex5;
++
++import java.awt.*;
++
++public class MyTriangle extends MyPoints {
++    private MyPoints v1;
++    private MyPoints v2;
++    private MyPoints v3;
++
++    int x1 = 0;
++    int y1 = 0;
++    int x2 = 0;
++    int y2 = 0;
++    int x3 = 0;
++    int y3 = 0;
++
++    public MyTriangle( MyPoints v1, MyPoints v2, MyPoints v3) {
++        this.v1 = v1;
++        this.v2 = v2;
++        this.v3 = v3;
++    }
++
++    public MyTriangle(int x1, int y1, int x2, int y2, int x3, int y3) {
++        super(x1, y1);
++        this.x2 = x2;
++        this.y2 = y2;
++        this.x3 = x3;
++        this.y3 = y3;
++    }
++
++
++    @Override
++    public String toString() {
++        return "MyTriangle{" +
++                "v1=" + v1 +
++                ", v2=" + v2 +
++                ", v3=" + v3 +
++                '}';
++    }
++
++    public double getPerimeter()
++    {
++        return v1.distance(x1,y1) + v2.distance(x2,y2) + v3.distance(x3,y3);
++    }
++
++}
+Index: src/com/syntax/jmasterCoBan/Java65/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmasterCoBan/Java65/Main.java b/src/com/syntax/jmasterCoBan/Java65/Main.java
+new file mode 100644
+--- /dev/null	(date 1676086228293)
++++ b/src/com/syntax/jmasterCoBan/Java65/Main.java	(date 1676086228293)
+@@ -0,0 +1,15 @@
++package com.syntax.jmasterCoBan.Java65;
++/**
++ * Java Cơ Bản 65 try catch bắt lỗi exception trọng Java
++ */
++public class Main {
++    public static void main(String[] args) {
++        int[] mang = {1,2};
++        try {
++            System.out.println(mang[3]);
++        }
++        catch (Exception e){
++            System.out.println("loi" + e);
++        }
++    }
++}
+Index: src/com/syntax/jmasterCoBan/Java62/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/syntax/jmasterCoBan/Java62/Main.java b/src/com/syntax/jmasterCoBan/Java62/Main.java
+new file mode 100644
+--- /dev/null	(date 1676039226506)
++++ b/src/com/syntax/jmasterCoBan/Java62/Main.java	(date 1676039226506)
+@@ -0,0 +1,10 @@
++package com.syntax.jmasterCoBan.Java62;
++//Java Cơ Bản 62 Method Local Inner Class
++public class Main {
++    public static void main(String[] args) {
++        Employee e = new Employee();
++        e.luong();
++    }
++
++
++}
