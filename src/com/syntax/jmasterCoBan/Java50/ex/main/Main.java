@@ -4,8 +4,17 @@ import com.syntax.jmasterCoBan.Java50.ex.model.Person;
 import com.syntax.jmasterCoBan.Java50.ex.model.Student;
 import com.syntax.jmasterCoBan.Java50.ex.model.Teacher;
 import java.util.Scanner;
+
+/**
+ * The type Main.
+ */
 //Java Cơ Bản - Ứng dụng đa hình Java
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Student st = new Student();
         Teacher tc = new Teacher();
@@ -18,6 +27,11 @@ public class Main {
         infor(tc);
     }
 
+    /**
+     * Infor.
+     *
+     * @param p the p
+     */
     public static void infor(Person p) {
         System.out.println(p.getName());
         System.out.println(p.getAge());
@@ -30,6 +44,11 @@ public class Main {
         }
     }
 
+    /**
+     * Input.
+     *
+     * @param p the p
+     */
     public static void input(Person p)
     {
         System.out.println("Nhap ten : ");

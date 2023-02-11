@@ -1,13 +1,25 @@
 package com.syntax.jmasterCoBan.Java37;
+
+/**
+ * The type Java 37.
+ */
 //Java Cơ Bản 37 Bộ nhớ Stack và Heap trong Java
 public class Java37 {
 
+    /**
+     * Chuvi.
+     */
     public void Chuvi()
     {
         System.out.println("chu vi");
     }
 
 
+    /**
+     * Xinchao.
+     *
+     * @param jv37 the jv 37
+     */
 //    truyền class trong class được
     public static void Xinchao(Java37 jv37)
 
@@ -16,6 +28,12 @@ public class Java37 {
         System.out.println(s);
         jv37.Chuvi();
     }
+
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int x =10;
         System.out.println(x);

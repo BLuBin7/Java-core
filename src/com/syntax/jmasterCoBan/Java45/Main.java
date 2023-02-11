@@ -4,7 +4,15 @@ import java.util.Scanner;
 
 //Java Cơ Bản 45 Thực hành quan hệ OOP danh sách nhân viên
 
+/**
+ * The type Main.
+ */
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Employee[] e = new Employee[2];
         Scanner sc = new Scanner(System.in);

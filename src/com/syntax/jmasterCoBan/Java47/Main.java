@@ -1,9 +1,18 @@
 package com.syntax.jmasterCoBan.Java47;
+
+/**
+ * The type Main.
+ */
 //Java Cơ Bản 47 Đa hình trong Java
 // Đa hình : 1 đối tượng tồn tại nhiều hình thức khác nhau
 //mục đích : Mục đich thiết kế . Bây giờ viết 1 hàm truyền vào 1 đối tượng cha,
 //thì có thể dùng các đối tượng con truyền vào hàm đó đc. Đặc biệt dùng viết interface và abstract class.
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Employee e = new Employee();
         Person p = new Employee();

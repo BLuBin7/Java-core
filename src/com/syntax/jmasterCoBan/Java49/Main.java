@@ -1,6 +1,15 @@
 package com.syntax.jmasterCoBan.Java49;
+
+/**
+ * The type Main.
+ */
 //Java Cơ Bản 49 Ép kiểu đối tượng trong Đa hình Java
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         long x = 10;
         int i = (int) x;

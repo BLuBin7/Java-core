@@ -3,8 +3,17 @@ package com.syntax.jmasterCoBan.Java57.Ngayvagio;
 
 import java.util.Calendar;
 import java.util.Date;
+
+/**
+ * The type Main.
+ */
 //Java Cơ Bản - Sư dụng Ngày và Giờ trong Java
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Date now = new Date();
 //        in ra ngày hiện tại

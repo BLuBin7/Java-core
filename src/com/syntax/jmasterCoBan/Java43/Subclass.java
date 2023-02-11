@@ -1,5 +1,8 @@
 package com.syntax.jmasterCoBan.Java43;
 
+/**
+ * The type Subclass.
+ */
 public class Subclass extends Superclass{
     @Override
     public long tinhtong(long a, long b, long c) {

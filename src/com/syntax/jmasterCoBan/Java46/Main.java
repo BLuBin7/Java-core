@@ -2,8 +2,16 @@ package com.syntax.jmasterCoBan.Java46;
 
 import java.util.Scanner;
 
+/**
+ * The type Main.
+ */
 //Java Cơ Bản 46 Thực hành kế thừa OOP tính lương nhân viên
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Employee[] employee = new Employee[2];
         Scanner sc = new Scanner(System.in);

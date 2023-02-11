@@ -6,8 +6,16 @@ import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+/**
+ * The type Main.
+ */
 //Java Cơ Bản - Định dạng hiển thị tiền tệ trong Java
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         long l = 123456789;
 

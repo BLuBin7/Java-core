@@ -1,4 +1,8 @@
 package com.syntax.jmasterCoBan.Java54;
+
+/**
+ * The type Main.
+ */
 //Java Cơ Bản 54 Interface trong java
 //interface là bản nâng cấp của abstract, các hàm con bắt buộc phải Override lại mọi hàm trong inteface
 //interface chỉ bao gồm các hàm abstract và hằng số( không có Attribute , Constructor, hàm bình thường)
@@ -6,6 +10,11 @@ package com.syntax.jmasterCoBan.Java54;
 //có thể dùng tính đa hình
 //interface dùng để đa kế thừa
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Dog dg = new Dog();
         dg.sua();

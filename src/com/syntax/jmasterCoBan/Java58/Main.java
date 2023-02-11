@@ -1,6 +1,15 @@
 package com.syntax.jmasterCoBan.Java58;
+
+/**
+ * The type Main.
+ */
 //Java Cơ Bản - So sánh StringBuilder và StringBuffer
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 //        Cách khai báo String thứ 1
 //        String sa = new String("a");

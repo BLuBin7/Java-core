@@ -4,8 +4,16 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+/**
+ * The type Main.
+ */
 //Java Cơ Bản - Định dạng ngày Date sang String trong Java
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         String pattern = "dd/MM/yyyy"; // hiển thị ngày
 

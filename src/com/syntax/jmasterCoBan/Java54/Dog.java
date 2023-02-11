@@ -1,5 +1,8 @@
 package com.syntax.jmasterCoBan.Java54;
 
+/**
+ * The type Dog.
+ */
 public class Dog implements AnimalService{
     @Override
     public void sua() {

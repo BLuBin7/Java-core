@@ -2,8 +2,16 @@ package com.syntax.jmasterCoBan.Java39;
 //Java Cơ Bản 38 Sự khác nhau giữa giá trị null và 0 trong Java
 import java.util.Scanner;
 
+/**
+ * The type Main.
+ */
 public class Main {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 //       khai báo mảng kiểu thường

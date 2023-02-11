@@ -4,8 +4,16 @@ import java.math.RoundingMode;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+/**
+ * The type Main.
+ */
 //Java Cơ Bản - Định dạng hiển thị Số trong Java
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         long l = 123456789;
         double k = 1234567.890123;

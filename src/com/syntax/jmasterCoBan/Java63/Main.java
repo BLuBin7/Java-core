@@ -1,8 +1,14 @@
 package com.syntax.jmasterCoBan.Java63;
+
 /**
  * Java Cơ Bản 63 Anonymous Inner Class
  */
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
 
 //        tạo 1 class implements class interface mà không cần phải tạo 1 file mới
@@ -29,6 +35,12 @@ public class Main {
     }
 }
 
+/**
+ * The type Xinchao.
+ */
 abstract class Xinchao {
+    /**
+     * Xinchao.
+     */
     public abstract void xinchao();
 }

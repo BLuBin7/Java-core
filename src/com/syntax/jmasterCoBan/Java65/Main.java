@@ -1,9 +1,15 @@
 package com.syntax.jmasterCoBan.Java65;
+
 /**
  * Java Cơ Bản 65 try catch bắt lỗi exception trọng Java
  * class Exception là class cha của mọi class, do vậy phải catch ở cuối cùng
  */
 public class Main {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] mang = {1,2};
         try {
