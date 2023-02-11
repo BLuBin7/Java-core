@@ -30,7 +30,9 @@ public class Main {
         sb.append("BLuBin");
         String s3 = sb.toString();
         System.out.println(s3);
-
+        // vd khai báo 1 class a và sau đó thực hiện in ra class a đó
+        // thì nó sẽ hiện ra các kí tự băm, nhưng nếu trong class a có hàm toString()
+        // thỉ nó sẽ in ra String các đối số trong constructor
 
     }
 }
