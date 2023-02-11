@@ -1,6 +1,5 @@
 package com.exercise.exercise_1.Ex4;
 
-import com.exercise.exercise_1.Ex3.MyPoints;
 
 public class MyCircle {
     //    Attribute
@@ -16,6 +15,8 @@ public class MyCircle {
         this.center = center;
         this.radius = radius;
     }
+
+
 
     public MyPoints getCenter() {
         return center;
@@ -39,6 +40,18 @@ public class MyCircle {
                 "center=" + center +
                 ", radius=" + radius +
                 '}';
+    }
+    public int getCenterX()
+    {
+        return this.center.getX();
+    }
+    public int getCenterY()
+    {
+        return this.center.getY();
+    }
+    public void setCenterXY(int x,int y ) {
+        this.center.setX(x);
+        this.center.setY(y);
     }
     public double getArea()
     {
