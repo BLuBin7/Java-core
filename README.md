@@ -1,2 +1,2 @@
 # Java-core
-Learn Javaaa
+Learn Java
