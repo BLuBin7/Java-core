@@ -23,17 +23,22 @@ public class Main {
 //                 Trong chuỗi : String.length()
 
 //        SAO CHÉP DỮ LIỆU TRÊN MẢNG
-//        cách 1
-        Integer[] orange, apple, apple1; // phải khai báo kiểu Integer mới dùng được hàm deepT0String
+//        cách 1 (Không xài nhiều)
+        Integer[] orange, apple, apple1, apple2; // phải khai báo kiểu Integer mới dùng được hàm deepT0String
         orange = new Integer[]{1,2,3};
         apple = orange;
         apple[0]++;
 //        System.out.println(Arrays.deepToString(apple));
 
 //       cách 2
-         apple1 = new Integer[orange.length];
+         apple1 = new Integer[orange.length]; // lấy chiều dài mảng orange
+         System.arraycopy(orange, 0, apple1, 0, orange.length);
+         apple1[0]++;
+//         System.out.println(Arrays.toString(apple1));
 
-
-
+//        cách 3
+        apple2 = orange.clone();
+        apple2[0]++;
+        System.out.println(Arrays.toString(apple2));
     }
 }
