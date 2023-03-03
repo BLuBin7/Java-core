@@ -16,7 +16,7 @@ public enum Day {
     Sunday(8);
 
     private final int soTiet;
-
+// Tổng hợp các operation chung cho enum
     Day(int soTiet) {
         this.soTiet = soTiet;
     }

@@ -10,7 +10,7 @@ import java.time.MonthDay;
 public class Test {
     public static void main(String[] args) {
     TKB tkb = new TKB(Day.Thursday,"toan");
-    System.out.println(tkb);
+    System.out. println(tkb);
 
 //    ENUM giúp tiết kiệm code hơn với những obj so hữu hạn
 //    cách 1
@@ -19,5 +19,6 @@ public class Test {
 //    cách 2
     System.out.println(Day.Thursday.getSoTiet());
     }
+
 
 }
