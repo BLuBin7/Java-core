@@ -5,11 +5,11 @@ package com.syntax.TITV.Java59.test;
  * Date : 3/3/2023 - 7:17 PM
  * Description :
  */
-public class Main {
+public class TKB {
     private Day thu;
     private String monhoc;
 
-    public Main(Day thu, String monhoc) {
+    public TKB(Day thu, String monhoc) {
         this.thu = thu;
         this.monhoc = monhoc;
     }
@@ -30,4 +30,11 @@ public class Main {
         this.monhoc = monhoc;
     }
 
+    @Override
+    public String toString() {
+        return "TKB{" +
+                "thu=" + thu +
+                ", monhoc='" + monhoc + '\'' +
+                '}';
+    }
 }
