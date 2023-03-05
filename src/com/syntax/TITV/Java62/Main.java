@@ -15,18 +15,18 @@ public class Main {
         Stack<String> stack = new Stack<>();
 
         String chuoi = null;
-        System.out.println("nhap so luong chuoi");
-        int n = input.nextInt();
-        input.nextLine();
-        for (int i = 0; i < n; i++) {
-                System.out.println("nhap chuoi" + i + ":");
-                chuoi = input.nextLine();
+        System.out.println("nhap chuoi" + ":");
+        chuoi = input.nextLine();
+
+        for (int i = 0; i < chuoi.length(); i++) {
                 stack.push(chuoi);
+            }
+//            System.out.println("chuoi sau khi nhap : " + stack);
+        for (int i = 0; i < chuoi.length(); i++) {
+            System.out.println("chuoi sau khi nhap : " + stack.pop());
         }
-        System.out.println("chuoi sau khi nhap : " + stack.push(chuoi));
-
-//        System.out.println("chuoi sau khi doi thu tu : " + stack);
-
-
-    }
 }
+        }
+
+
+
