@@ -1,6 +1,7 @@
 package com.syntax.TITV.Java61.main;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -28,9 +29,12 @@ public class Danhsach {
 
 //    2. In danh sach
     public void Xuatdanhsach(){
+//        cách in 1
         for (SinhVien sinhvien : danhsach) {
             System.out.println(sinhvien.toString());
-        }        
+        }
+//        cách in 2
+//        System.out.println(Arrays.toString(this.danhsach.toArray()));
     }
 
 //    3. Kiem tra danh sach
