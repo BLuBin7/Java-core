@@ -2,6 +2,7 @@ package slangword;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by Binh
@@ -22,15 +23,13 @@ public class Main {
                 } else {
                     System.out.println(line);
                     String[] words = line.split("`");
-                    String[] dictionaries = line.split("\\|");
+                    List<String> dictionaries = List.of(line.split("\\|"));
+
                     for (int i = 0; i < words.length; i++) {
                         words[i] = words[i].trim();
 //                        System.out.println(words[i]);
                     }
-                    for (int i = 0; i < dictionaries.length; i++) {
-                        dictionaries[i] = dictionaries[i].trim();
-                        System.out.println(dictionaries[i]);
-                    }
+
                 }
             }
         } catch (IOException e) {
