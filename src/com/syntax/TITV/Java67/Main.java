@@ -23,9 +23,9 @@ public class Main {
 //        folder2.mkdirs();
 
 //        Tạo tập tin
-        File file1 = new File(" C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java67\\dir1\\ha.txt");
+        File file1 = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java67\\dir1\\");
 
-//      phải có try catch, để
+//      phải có try catch khi tạo tập tin
         try {
             file1.createNewFile();
         } catch (IOException e) {
