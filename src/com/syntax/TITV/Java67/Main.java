@@ -23,7 +23,7 @@ public class Main {
 //        folder2.mkdirs();
 
 //        Tạo tập tin
-        File file1 = new File(" C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java67\\dir1\\hahaa.txt");
+        File file1 = new File(" C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java67\\dir1\\ha.txt");
 
 //      phải có try catch, để
         try {
