@@ -8,7 +8,7 @@ import java.util.*;
  * Description : Java 65. Hiểu rõ cấu trúc Map của Java | Viết chương trình tra từ điển Anh - Việt
  */
 public class TuDien {
-    private Map<String,String> slangword= new TreeMap<String,String>();
+    private Map<String,String> slangword = new TreeMap<String,String>();
 
     public String Them(String tukhoa,String ynghia){
         return this.slangword.put(tukhoa,ynghia);
