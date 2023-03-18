@@ -49,7 +49,7 @@ public class Fileread {
         tukhoa = words[0];
 //      hàm get giúp lấy ra value tương ứng
         List<String> Ynghia ;
-         Ynghia = this.slang.get(tukhoa);
+        Ynghia = this.slang.get(tukhoa);
         return Ynghia;
     }
 
