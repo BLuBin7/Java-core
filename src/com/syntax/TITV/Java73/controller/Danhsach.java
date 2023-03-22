@@ -94,9 +94,9 @@ public class Danhsach {
 
     }
 
-    public void ghidulieu() {
+    public void luusinhvien() {
             try {
-                File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\text.txt");
+                File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\data.txt");
                 OutputStream os = new FileOutputStream(f);
                 ObjectOutputStream oos = new ObjectOutputStream(os);
 

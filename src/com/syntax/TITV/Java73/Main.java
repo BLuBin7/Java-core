@@ -28,7 +28,7 @@ public class Main {
             System.out.println("7. Xoa sinh vien");
             System.out.println("8. Tim kiem sinh vien");
             System.out.println("9. Xuat ds co diem tu cao den thap");
-            System.out.println("10. Ghi doi tuong sinh vien");
+            System.out.println("10. Luu sinh vien xuong file");
             System.out.println("0. Exit");
             System.out.println("------------------------------");
 
@@ -84,7 +84,7 @@ public class Main {
                 ds.Xuatdanhsach();
             }
             else if (choice == 10) {
-                ds.ghidulieu();
+                ds.luusinhvien();
             }
 
         } while (choice != 0); // nhập vô là 0 thì sẽ thoát khỏi chương trình
