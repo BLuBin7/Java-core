@@ -14,13 +14,13 @@ import java.io.*;
 public class vddocfile {
     public static void main(String[] args) throws IOException{
         try {
-//            File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\data.titv");
-//            InputStream is = new FileInputStream(f);
-//            ObjectInputStream iis = new ObjectInputStream(is);
-
-            String fileName= "data.txt";
-            FileInputStream is= new FileInputStream(fileName);
+            File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\data.txt");
+            InputStream is = new FileInputStream(f);
             ObjectInputStream iis = new ObjectInputStream(is);
+
+//            String fileName= "data.txt";
+//            FileInputStream is= new FileInputStream(fileName);
+//            ObjectInputStream iis = new ObjectInputStream(is);
 
 
             SinhVien st = (SinhVien) iis.readObject();
@@ -28,7 +28,7 @@ public class vddocfile {
             System.out.println(st);
             iis.close();
         }catch (Exception e){
-
+            e.printStackTrace();
         }
     }
 }

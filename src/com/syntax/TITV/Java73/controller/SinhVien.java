@@ -1,5 +1,6 @@
 package com.syntax.TITV.Java73.controller;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
@@ -7,7 +8,7 @@ import java.util.Objects;
  * Date : 3/4/2023 - 8:33 AM
  * Description :
  */
-public class SinhVien implements  Comparable<SinhVien>{
+public class SinhVien implements  Comparable<SinhVien>, Serializable {
     private String mssv;
     private String hovaten;
     private double namsinh;
