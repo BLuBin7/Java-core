@@ -1,4 +1,4 @@
-package com.syntax.TITV.Java73;
+package com.syntax.TITV.Java74;
 
 import com.syntax.TITV.Java73.controller.Danhsach;
 import com.syntax.TITV.Java73.controller.SinhVien;
@@ -29,6 +29,7 @@ public class Main {
             System.out.println("8. Tim kiem sinh vien");
             System.out.println("9. Xuat ds co diem tu cao den thap");
             System.out.println("10. Luu sinh vien xuong file");
+            System.out.println("11. Doc danh sach sinh vien tu tap tin");
             System.out.println("0. Exit");
             System.out.println("------------------------------");
 
@@ -86,7 +87,9 @@ public class Main {
             else if (choice == 10) {
                 ds.luusinhvien();
             }
+            else if (choice == 11) {
 
+            }
 
         } while (choice != 0); // nhập vô là 0 thì sẽ thoát khỏi chương trình
     }

@@ -1,8 +1,8 @@
-package com.syntax.TITV.Java73;
+package com.syntax.TITV.Java74;
 
 
 
-import com.syntax.TITV.Java73.controller.SinhVien;
+import com.syntax.TITV.Java74.controller.SinhVien;
 
 import java.io.*;
 
@@ -16,7 +16,7 @@ public class vdghidoituong {
 
     try
     {
-        File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\data.txt");
+        File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java74\\data.dat");
         OutputStream os = new FileOutputStream(f);
         ObjectOutputStream oos = new ObjectOutputStream(os);
 
