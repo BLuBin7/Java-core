@@ -1,7 +1,7 @@
 package com.syntax.TITV.Java73;
 
-import com.syntax.TITV.Java73.main.Danhsach;
-import com.syntax.TITV.Java73.main.SinhVien;
+import com.syntax.TITV.Java73.controller.Danhsach;
+import com.syntax.TITV.Java73.controller.SinhVien;
 
 import java.util.Scanner;
 
@@ -28,6 +28,7 @@ public class Main {
             System.out.println("7. Xoa sinh vien");
             System.out.println("8. Tim kiem sinh vien");
             System.out.println("9. Xuat ds co diem tu cao den thap");
+            System.out.println("10. Ghi doi tuong sinh vien");
             System.out.println("0. Exit");
             System.out.println("------------------------------");
 
@@ -81,6 +82,9 @@ public class Main {
             else if (choice == 9) {
                 ds.sapxepsinhvien();
                 ds.Xuatdanhsach();
+            }
+            else if (choice == 10) {
+                ds.ghidulieu();
             }
 
         } while (choice != 0); // nhập vô là 0 thì sẽ thoát khỏi chương trình

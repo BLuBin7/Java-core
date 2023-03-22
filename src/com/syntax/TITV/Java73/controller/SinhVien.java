@@ -1,4 +1,4 @@
-package com.syntax.TITV.Java73.main;
+package com.syntax.TITV.Java73.controller;
 
 import java.util.Objects;
 

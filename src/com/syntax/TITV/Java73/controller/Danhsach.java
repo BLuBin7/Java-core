@@ -1,5 +1,9 @@
-package com.syntax.TITV.Java73.main;
+package com.syntax.TITV.Java73.controller;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -90,4 +94,24 @@ public class Danhsach {
 
     }
 
+    public void ghidulieu() {
+            try {
+                File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\text.txt");
+                OutputStream os = new FileOutputStream(f);
+                ObjectOutputStream oos = new ObjectOutputStream(os);
+
+                for (SinhVien sv:
+                     danhsach) {
+                    oos.writeObject(sv);
+                }
+                oos.flush();
+                oos.close();
+
+            }catch (Exception e) {
+
+            }
+
+    }
+
 }
+

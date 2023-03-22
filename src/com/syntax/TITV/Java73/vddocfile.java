@@ -1,6 +1,8 @@
 package com.syntax.TITV.Java73;
 
-import com.syntax.TITV.Java61.main.SinhVien;
+
+
+import com.syntax.TITV.Java73.controller.SinhVien;
 
 import java.io.*;
 
@@ -21,7 +23,7 @@ public class vddocfile {
             System.out.println(st);
             iis.close();
         }catch (Exception e){
-            e.printStackTrace();
+
         }
     }
 }
