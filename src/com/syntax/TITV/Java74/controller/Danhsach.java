@@ -93,7 +93,7 @@ public class Danhsach {
 
     public void luusinhvien() {
             try {
-                File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java73\\data.txt");
+                File f = new File("C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java74\\data.txt");
                 OutputStream os = new FileOutputStream(f);
                 ObjectOutputStream oos = new ObjectOutputStream(os);
 
@@ -110,21 +110,24 @@ public class Danhsach {
 
     }
 
-    public void docdanhsachfile() throws Exception {
+    public void docdanhsachfile(){
         try {
             String path = "C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java74\\data.txt";
             ObjectInputStream input = new ObjectInputStream(new FileInputStream(path));
             SinhVien sv = null;
             
             while(true){
-                sv = (SinhVien) input.readObject();
-                if (sv!=null) {
+                Object oj= (SinhVien) input.readObject();
+                if ( oj!=null ) {
+//                    method add là có sẵn của hàm
                     this.danhsach.add(sv);
-                } if(sv == null) {
+                } if(oj == null) {
+//                    do khi lấy ra nếu bị null thì phải ép kiểu
+                    sv = (SinhVien)oj ;
                     break;
                 }
-
             }
+            input.close();
 
         }catch(Exception e){
             e.printStackTrace();

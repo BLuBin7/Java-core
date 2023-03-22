@@ -1,7 +1,7 @@
 package com.syntax.TITV.Java74;
 
-import com.syntax.TITV.Java73.controller.Danhsach;
-import com.syntax.TITV.Java73.controller.SinhVien;
+import com.syntax.TITV.Java74.controller.Danhsach;
+import com.syntax.TITV.Java74.controller.SinhVien;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Description : Java 73. Cách lưu đối tượng xuống tập tin | Lập trình Java
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Danhsach ds = new Danhsach();
         Scanner input = new Scanner(System.in);
         int choice = 0;
@@ -88,7 +88,7 @@ public class Main {
                 ds.luusinhvien();
             }
             else if (choice == 11) {
-
+                ds.docdanhsachfile();
             }
 
         } while (choice != 0); // nhập vô là 0 thì sẽ thoát khỏi chương trình
