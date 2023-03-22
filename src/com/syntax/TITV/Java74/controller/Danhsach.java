@@ -114,8 +114,15 @@ public class Danhsach {
         try {
             String path = "C:\\Intellij-Utimately\\project\\Java-core\\Java-core\\src\\com\\syntax\\TITV\\Java74\\data.txt";
             ObjectInputStream input = new ObjectInputStream(new FileInputStream(path));
-            for (SinhVien sv : danhsach) {
-                System.out.println(sv);
+            SinhVien sv = null;
+            while(true){
+                sv = (SinhVien) input.readObject();
+                if (sv!=null) {
+                    this.danhsach.add(sv);
+                } if(sv == null) {
+                    break;
+                }
+
             }
 
         }catch(Exception e){
