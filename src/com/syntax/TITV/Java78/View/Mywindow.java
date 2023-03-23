@@ -41,5 +41,7 @@ public class Mywindow extends JFrame {
         Mywindow mw2 = new Mywindow();
         mw2.showit("title");
 
+        Mywindow mw3 = new Mywindow();
+        mw3.showit("title",300,800);
     }
 }
