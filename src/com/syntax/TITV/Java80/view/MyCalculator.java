@@ -13,17 +13,17 @@ import java.awt.*;
 public class MyCalculator extends JFrame {
 
 
-    public MyCalculator() throws HeadlessException {
+    public MyCalculator() {
         this.setTitle("Test");
         this.setSize(300, 600);
-
+        this.setLocationRelativeTo(null);
 
 //       L&F: Look and Fell
         JTextField jtext = new JTextField(50);
 //        create onr container JPanel
-        JPanel jPanel = new JPanel();
-        jPanel.setLayout(new BorderLayout());
-        jPanel.add(jtext, BorderLayout.CENTER);
+        JPanel jPanel_head = new JPanel();
+        jPanel_head.setLayout(new BorderLayout());
+        jPanel_head.add(jtext, BorderLayout.CENTER);
 
 
 
@@ -36,6 +36,10 @@ public class MyCalculator extends JFrame {
             jPanel_btn.add(new JButton(i + ""));
         }
 
+        this.setLayout(new BorderLayout());
+
+//        this.add(JPanel_head, BorderLayout.NORTH);
+//        this.add(JPanel_btn,)
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
