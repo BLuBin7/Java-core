@@ -12,5 +12,8 @@ public class vidu {
         JFrame fp = new JFrame("hello");
         fp.setVisible(true);
         fp.setSize(600,400);
+
+        fp.setDefaultCloseOperation(Default);
+
     }
 }
