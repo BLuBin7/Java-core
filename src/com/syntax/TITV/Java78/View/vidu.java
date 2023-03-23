@@ -11,5 +11,6 @@ public class vidu {
     public static void main(String[] args) {
         JFrame fp = new JFrame("hello");
         fp.setVisible(true);
+        fp.setSize(600,400);
     }
 }
