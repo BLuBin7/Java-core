@@ -10,10 +10,13 @@ import javax.swing.*;
 public class vidu {
     public static void main(String[] args) {
         JFrame fp = new JFrame("hello");
-        fp.setVisible(true);
         fp.setSize(600,400);
 
-        fp.setDefaultCloseOperation(Default);
+//        thoát ra khỏi chương trình khi đóng cửa sổ
+        fp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+
+//        cho phép hiển thị, luôn nên đặt ở cuối
+        fp.setVisible(true);
     }
 }
