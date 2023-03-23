@@ -5,7 +5,7 @@ import javax.swing.*;
 /**
  * Created by Binh
  * Date : 3/23/2023 - 10:17 PM
- * Description : Label extends from JLabel
+ * Description : JavaLabel extends from JLabel
  */
 public class JavaLabel extends JLabel {
     public static void main(String[] args){
