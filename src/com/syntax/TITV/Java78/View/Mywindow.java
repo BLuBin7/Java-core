@@ -15,12 +15,31 @@ public class Mywindow extends JFrame {
 
     }
 
-    public void show() {
+    public void showit() {
         this.setVisible(true);
 
     }
 
-    public void show(String tittle){
+    public void showit(String tittle){
         this.setTitle(tittle);
+    }
+
+    public void showit(String title, int width, int height) {
+        this.setTitle(title);
+        this.setSize(width, height);
+    }
+
+    public static void main(String[] args) {
+//        tính đa hình, trỏ tới địa chỉ của class cha
+        JFrame fp = new JFrame("new window");
+        fp.show();
+
+//      đương nhiên vẫn có thể multi-thread
+        Mywindow mw1 = new Mywindow();
+        mw1.showit();
+
+        Mywindow mw2 = new Mywindow();
+        mw2.showit("title");
+
     }
 }
