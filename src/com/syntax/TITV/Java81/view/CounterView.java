@@ -27,8 +27,7 @@ public class CounterView extends JFrame {
         this.setTitle("Counter");
         this.setSize(300,300);
 //        căn giữa
-        this.setLocationRelativeTo(null);
-//        cho phép tắt app( tránh chạy ngầm)
+        this.setLocationRelativeTo(null);//        cho phép tắt app( tránh chạy ngầm)
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jButton_up = new JButton("Up");
         jButton_down = new JButton("down");
