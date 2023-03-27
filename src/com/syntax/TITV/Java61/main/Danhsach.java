@@ -65,7 +65,8 @@ public class Danhsach {
 
 //    8. Tim kiem sinh vien
     public void timsinhvien(String ten) {
-        for (SinhVien sv :
+        //foreach
+            for (SinhVien sv :
                 danhsach) {
             if (sv.getHovaten().indexOf(ten) >= 0) {
                 System.out.println(sv.toString());
@@ -75,7 +76,7 @@ public class Danhsach {
 
 //    9. Xuat ds co diem tu cao den thap
     public void sapxepsinhvien(){
-//   Comparator để cho biết khi 2 ọn gặp nhau thì obj nào đứng trước, đứng sau
+//   Comparator để cho biết khi 2 obj gặp nhau thì obj nào đứng trước, đứng sau
         Collections.sort(this.danhsach, new Comparator<SinhVien>() {
             @Override
             public int compare(SinhVien sv1, SinhVien sv2) {
@@ -90,5 +91,4 @@ public class Danhsach {
         });
 
     }
-
 }
