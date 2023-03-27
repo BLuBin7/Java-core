@@ -6,33 +6,31 @@ import javax.swing.*;
 
 /**
  * Created by Binh
- * Date : 3/27/2023 - 8:11 PM
+ * Date : 3/27/2023 - 8:36 PM
  * Description :
  */
 public class CounterView extends JFrame {
+    private CounterModel counterModel;
     private JButton jButton_up;
-    private JButton JButton_down;
+    private  JButton jButton_down;
 
-//    hiển thị dữ liệu
-    private JLabel Jlabel_value;
-    private CounterModel countermodel;
+    private JLabel JLabel_value;
 
     public CounterView(){
-//      tạo 1 obj ngay trong hàm khởi tạo, giúp không cần phải tạo 1 obj ở ngoài hàm main
-        this.countermodel = new CounterModel();
-
-//        hàm khởi tạo
+//        khai báo 1 obj trong hàm tạo
+        this.counterModel = new CounterModel();
         this.init();
+        this.setVisible(true);
     }
 
-    public void init() {
+    public void init(){
         this.setTitle("Counter");
-
         this.setSize(300,300);
 //        căn giữa
         this.setLocationRelativeTo(null);
-
-//        tắt app khi thoát khỏi chương trình
+//        cho phép tắt app( tránh chạy ngầm)
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jButton_up = new JButton("Up");
+        jButton_down = new JButton("down");
     }
 }
