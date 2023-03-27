@@ -65,7 +65,8 @@ public class Danhsach {
 
 //    8. Tim kiem sinh vien
     public void timsinhvien(String ten) {
-        for (SinhVien sv :
+        //foreach
+            for (SinhVien sv :
                 danhsach) {
             if (sv.getHovaten().indexOf(ten) >= 0) {
                 System.out.println(sv.toString());
@@ -90,5 +91,4 @@ public class Danhsach {
         });
 
     }
-
 }
