@@ -8,5 +8,7 @@ package com.syntax.TITV.Java80;
 //JPanel là 1 container trong Component
 public class Main {
 
+    public static void main(String[] args) {
 
+    }
 }
