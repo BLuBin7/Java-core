@@ -32,5 +32,4 @@ public class CounterModel {
         this.value = 0;
     }
 
-
 }
