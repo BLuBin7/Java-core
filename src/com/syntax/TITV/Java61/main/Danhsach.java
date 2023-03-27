@@ -75,7 +75,7 @@ public class Danhsach {
 
 //    9. Xuat ds co diem tu cao den thap
     public void sapxepsinhvien(){
-//   Comparator để cho biết khi 2 ọn gặp nhau thì obj nào đứng trước, đứng sau
+//   Comparator để cho biết khi 2 obj gặp nhau thì obj nào đứng trước, đứng sau
         Collections.sort(this.danhsach, new Comparator<SinhVien>() {
             @Override
             public int compare(SinhVien sv1, SinhVien sv2) {
