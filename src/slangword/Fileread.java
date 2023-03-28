@@ -11,11 +11,18 @@ import java.util.Map;
  * Description :
  */
 public class Fileread {
+    /**
+     * The Words.
+     */
     String[] words;
     private Map<String, List<String>> slang = new HashMap<>();
 
 
-
+    /**
+     * Sa.
+     *
+     * @throws FileNotFoundException the file not found exception
+     */
     public void sa() throws FileNotFoundException{
 
         File f = new File("dictionary.txt"); //lấy dữ liệu từ file
@@ -45,6 +52,13 @@ public class Fileread {
             e.printStackTrace();
         }
     }
+
+    /**
+     * Tratu list.
+     *
+     * @param tukhoa the tukhoa
+     * @return the list
+     */
     public List<String> tratu(String tukhoa){
         tukhoa = words[0];
 //      hàm get giúp lấy ra value tương ứng

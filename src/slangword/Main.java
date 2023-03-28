@@ -15,6 +15,12 @@ import java.util.Map;
 
 public class Main {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     * @throws FileNotFoundException the file not found exception
+     */
     public static void main(String[] args) throws FileNotFoundException {
         Fileread fr = new Fileread();
 //        fr.sa();
