@@ -16,6 +16,9 @@ public class CounterView extends JFrame {
 
     private JLabel JLabel_value;
 
+    /**
+     * Instantiates a new Counter view.
+     */
     public CounterView(){
 //        khai báo 1 obj trong hàm tạo
         this.counterModel = new CounterModel();
@@ -23,6 +26,9 @@ public class CounterView extends JFrame {
         this.setVisible(true);
     }
 
+    /**
+     * Init.
+     */
     public void init(){
         this.setTitle("Counter");
         this.setSize(300,300);

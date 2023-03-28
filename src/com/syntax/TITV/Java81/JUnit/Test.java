@@ -7,6 +7,11 @@ import com.syntax.TITV.Java81.model.CounterModel;
  * Description :
  */
 public class Test {
+    /**
+     * Main.
+     *
+     * @param args the args
+     */
     public static void main(String[] args){
         CounterModel ct = new CounterModel();
         ct.increment();
