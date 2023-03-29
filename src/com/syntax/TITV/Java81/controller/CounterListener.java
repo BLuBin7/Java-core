@@ -18,6 +18,11 @@ public class CounterListener implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println("ban da nhan nut");
+
+//        tuong tac voi jButton_up and jButton_down
+        String src = e.getActionCommand();
+
+        System.out.println("ban da nhan nut : "+src);
+
     }
 }
