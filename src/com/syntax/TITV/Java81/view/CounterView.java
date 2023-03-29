@@ -44,5 +44,10 @@ public class CounterView extends JFrame {
         JPanel jpanel = new JPanel();
         jpanel.setLayout(new BorderLayout());
         jpanel.add(jButton_up, BorderLayout.WEST);
+        jpanel.add(JLabel_value, BorderLayout.CENTER );
+        jpanel.add(jButton_down, BorderLayout.EAST);
+
+        this.setLayout(new BorderLayout());
+        this.add(jpanel, BorderLayout.CENTER);
     }
 }
