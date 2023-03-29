@@ -1,5 +1,6 @@
 package com.syntax.TITV.Java81.JUnit;
 import com.syntax.TITV.Java81.model.CounterModel;
+import com.syntax.TITV.Java81.view.CounterView;
 
 /**
  * Created by Binh
@@ -18,6 +19,6 @@ public class Test {
         ct.increment();
         ct.decrement();
         System.out.println(ct.getValue());
-
+        CounterView ctv = new CounterView();
     }
 }
