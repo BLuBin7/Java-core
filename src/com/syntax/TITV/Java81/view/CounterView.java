@@ -3,6 +3,7 @@ package com.syntax.TITV.Java81.view;
 import com.syntax.TITV.Java81.model.CounterModel;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Created by Binh
@@ -36,6 +37,12 @@ public class CounterView extends JFrame {
         this.setLocationRelativeTo(null);//        cho phép tắt app( tránh chạy ngầm)
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jButton_up = new JButton("Up");
-        jButton_down = new JButton("down");
+        jButton_down = new JButton("Down");
+//        Label chỉ nhận vào text, nhưng value lại là int, nên phải cộng ""
+        JLabel_value = new JLabel(this.counterModel.getValue()+"");
+
+        JPanel jpanel = new JPanel();
+        jpanel.setLayout(new BorderLayout());
+        jpanel.add(jButton_up, BorderLayout.WEST);
     }
 }
