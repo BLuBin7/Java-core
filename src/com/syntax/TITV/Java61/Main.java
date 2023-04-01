@@ -34,6 +34,7 @@ public class Main {
 
 
             choice = input.nextInt();
+//            xóa bộ nhớ đệm
             input.nextLine();
             if(choice == 1){
                 System.out.println("nhap mssv : "); String mssv=input.nextLine();
